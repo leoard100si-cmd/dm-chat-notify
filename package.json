@@ -1,0 +1,12 @@
+{
+  "name": "dm-chat-notify-worker",
+  "description": "Script gratuito que envia notificações push do Đ.M (sem Cloud Functions/Blaze)",
+  "main": "notify-worker.js",
+  "scripts": {
+    "start": "node notify-worker.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.1.0"
+  },
+  "private": true
+}
